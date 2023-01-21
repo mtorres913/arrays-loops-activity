@@ -6,7 +6,13 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
-
+let groupHobbies = ['cycling', 'gaming', 'lifting', 'coding']
+let listNumber = 1;
+for (let Element of groupHobbies){
+    console.log(`${listNumber}: ${Element}`);
+    listNumber += 1;
+}
+console.log('Total hobbies:', groupHobbies.length)
 
 // Example output
 // 1. swimming
@@ -24,7 +30,15 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
-
+let colors = ['orange','red','blue','teal'];
+let tealCount = 0
+for (i=0; i < colors.length; i++) {
+    if (colors[i] === 'teal'){
+        tealCount += 1
+    }
+}
+console.log (colors)
+console.log('Teal was found: ' + tealCount + ' times');
 
 // Example output
 // green, red, teal, orange, teal
@@ -72,7 +86,8 @@
  *    NOTE: You should not need a second array here.
  * 3. Output the array
  */
-
+let Numbers = [5, 6, 0, 7, 0];
+for ()
 
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
